@@ -1,3 +1,4 @@
+# generates traffic data based on the current mode
 from fastapi import FastAPI, WebSocket
 from scapy.all import IP, TCP, UDP
 import asyncio
